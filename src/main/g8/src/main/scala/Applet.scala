@@ -11,6 +11,14 @@ class Applet extends PApplet{
 
   }
 
+
+  override def setup(): Unit = {
+
+    surface.setTitle("$title$")
+
+  }
+
+
   override def draw(): Unit ={
 
     background(0)
