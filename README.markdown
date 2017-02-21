@@ -1,7 +1,7 @@
 Simple Template for Scala x Processing
 ---------------------------------------
 
-This project is giter8 template.(see [foundweekends - Giter8](http://www.foundweekends.org/giter8/))
+This project is giter8 template.
 
 ## How to use
 
