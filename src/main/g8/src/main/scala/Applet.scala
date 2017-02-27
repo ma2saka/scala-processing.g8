@@ -4,7 +4,7 @@ import processing.core.PApplet
 import processing.core.PConstants._
 
 class Applet extends PApplet{
-  lazy val BG_COLOR = { color(0,0,100) }
+  lazy val BG_COLOR = { color(0, 0, 100) }
 
   override def settings(): Unit = {
 
@@ -27,12 +27,11 @@ class Applet extends PApplet{
     background(BG_COLOR)
 
     textAlign(LEFT, TOP)
-    text(s"$"$"$mouseX, $"$"$mouseY",0 ,0)
+    text(s"$"$"$mouseX, $"$"$mouseY", 0, 0)
 
     textAlign(CENTER, CENTER)
     text("$title$", width/2, height/2)
 
   }
 }
-
 
